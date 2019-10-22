@@ -26,5 +26,10 @@ namespace Hello_world.Controllers
 
             return View();
         }
+
+        public ActionResult MyPage()
+        {
+            return View();
+        }
     }
 }
